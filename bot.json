@@ -1,0 +1,197 @@
+{
+    "appconfig": {
+        "headless": false,
+        "isGroupReply":false,
+        "webhook":"",
+        "downloadMedia": false,
+        "replyUnreadMsg": false
+    },
+    "bot": [{
+            "contains": [],
+            "exact": ["oi","oii", "oie","opa"],
+            "response": "{Oii!|Olá!!} *como você está?* \nSou a Paulina, autora do livro Niketche: Uma história de poligamia. \nJá sabe quem eu sou? se sim, vamos conversar sobre as minhas *obras* ? \nSe não souber, ou se quiser umas curiosidades, não tem problema! Pode *perguntar quem eu sou*, combinado? \n \nSó mais um recado, se você se perder em algum momento, não se preocupa! Só seguir as palavras em *negrito* que vai ficar tudo certo!"     
+        },
+        {
+            "contains": [],
+            "exact": ["olá", "oiee"],
+            "response": "{Oii!|Olá!!} *como você está?* \nSou a Paulina, autora do livro Niketche: Uma história de poligamia. \nJá sabe quem eu sou? se sim, vamos conversar sobre as minhas *obras* ? \nSe não souber, ou se quiser umas curiosidades, não tem problema! Pode *perguntar quem eu sou*, combinado? \n \nSó mais um recado, se você se perder em algum momento, não se preocupa! Só seguir as palavras em *negrito* que vai ficar tudo certo!" 
+        },
+        {
+            "contains": [],
+            "exact": ["não estou bem"],
+            "response": "Que pena [#name] ... Vamos conversar um pouco para ver se melhora. Sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["não estou muito bem"],
+            "response": "Que pena [#name] ... Vamos conversar um pouco para ver se melhora. Sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["n estou bem"],
+            "response": "Que pena [#name] ... Vamos conversar um pouco para ver se melhora. Sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["nn estou muito bem"],
+            "response": "Que pena [#name] ... Vamos conversar um pouco para ver se melhora. Sobre as minhas *obras* ?"
+        },
+        {
+            "contains": ["ótimo","ótima"],
+            "exact": [],
+            "response": "Estou {bem{, obrigada!|, muito obrigada!}|ótima.}  Que bom, [#name] ! \nVamos falar sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["bem"],
+            "response": "Estou {bem{, obrigada!|, muito obrigada!}|ótima.}  Que bom, [#name] ! \nVamos falar sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["estou bem"],
+            "response": "Estou {bem{, obrigada!|, muito obrigada!}|ótima.}  Que bom, [#name] ! \nVamos falar sobre as minhas *obras* ?"
+        },
+        {
+            "contains": ["mal"],
+            "exact": [],
+            "response": "Que pena [#name] ... Vamos conversar um pouco para ver se melhora. Sobre as minhas *obras* ?"
+        },
+        {
+            "contains": [],
+            "exact": ["quem é você?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui a primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["quem é vc?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui sa primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["quem é você?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui a primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["quem é vc?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui a primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["qm é vc?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui a primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["qm é você?"],
+            "response": "Me chamo Paulina Chiziane, e sou escritora. Nasci em Mabuto, Moçambique, e sou a autora do livro Niketche, entre outros. Fui a primeira mulher a publicar um romance em Moçambique! Quer saber mais das minhas *obras* ? 📚"
+        },
+        {
+            "contains": [],
+            "exact": ["sim"],
+            "response": "Meus principais livros são: \nO canto dos escravizados;\nEu, Mulher: Por uma nova visão de mundo; \nAs Andorinhas; \nO Sétimo Juramento; \nVentos do Apocalipse; \nBalada de Amor ao Vento; \nO Alegre Canto da Perdiz; \nE não menos importante, *Niketche*: Uma história de poligamia, que, por curiosidade, ganhei o prêmio José Craveirinha em 2003 aí no Brasil 🏆 \n*Quer* saber mais sobre Niketche ?"
+        },
+        {
+            "contains": [],
+            "exact": ["ss"],
+            "response": "Meus principais livros são: \nO canto dos escravizados;\nEu, Mulher: Por uma nova visão de mundo; \nAs Andorinhas; \nO Sétimo Juramento; \nVentos do Apocalipse; \nBalada de Amor ao Vento; \nO Alegre Canto da Perdiz; \nE não menos importante, *Niketche*: Uma história de poligamia, que, por curiosidade, ganhei o prêmio José Craveirinha em 2003 aí no Brasil 🏆 \n*Quer* saber mais sobre Niketche ?"
+        },
+        {
+            "contains": [],
+            "exact": ["sim!"],
+            "response": "Meus principais livros são: \nO canto dos escravizados;\nEu, Mulher: Por uma nova visão de mundo; \nAs Andorinhas; \nO Sétimo Juramento; \nVentos do Apocalipse; \nBalada de Amor ao Vento; \nO Alegre Canto da Perdiz; \nE não menos importante, *Niketche*: Uma história de poligamia, que, por curiosidade, ganhei o prêmio José Craveirinha em 2003 aí no Brasil 🏆 \n*Quer* saber mais sobre Niketche ?"
+        },
+        {
+            "contains": [],
+            "exact": ["ss!"],
+            "response": "Meus principais livros são: \nO canto dos escravizados;\nEu, Mulher: Por uma nova visão de mundo; \nAs Andorinhas; \nO Sétimo Juramento; \nVentos do Apocalipse; \nBalada de Amor ao Vento; \nO Alegre Canto da Perdiz; \nE não menos importante, *Niketche*: Uma história de poligamia, que, por curiosidade, ganhei o prêmio José Craveirinha em 2003 aí no Brasil 🏆 \n*Quer* saber mais sobre Niketche ?"
+        },
+        {
+            "contains": [],
+            "exact": ["quero"],
+            "response": "Certo! Adoro falar sobre esse livro (É um dos meus favoritos☺️📚) !! \nO que gostaria de saber: \n  \nSobre os *personagens* ? \n \nSobre a *história* ? \n \nSe não encontrou nada, ou a qualquer momento, podemos nos *despedir*"
+        },
+        {
+            "contains": [],
+            "exact": ["quero sim"],
+            "response": "Certo! Adoro falar sobre esse livro (É um dos meus favoritos☺️📚) !! \nO que gostaria de saber: \n  \nSobre os *personagens* ? \n \nSobre a *história* ? \n \nSe não encontrou nada, ou a qualquer momento, podemos nos *despedir*"
+        },
+        {
+            "contains": [],
+            "exact": ["niketche"],
+            "response": "Certo! Adoro falar sobre esse livro (É um dos meus favoritos☺️📚) !! \nO que gostaria de saber: \n  \nSobre os *personagens* ? \n \nSobre a *história* ? \n \nSe não encontrou nada, ou a qualquer momento, podemos nos *despedir*"
+        },
+        {
+            "contains": [],
+            "exact": ["não"],
+            "response": "Tudo bem. Tenha um ótimo dia! 😁 \nJá quer se *despedir* ? "
+        },
+        {
+            "contains": [],
+            "exact": ["não quero"],
+            "response": "Tudo bem. Tenha um ótimo dia! 😁 \nJá quer se *despedir* ? "
+        },
+        {
+            "contains": ["obras"],
+            "exact": [],
+            "response": "Meus principais livros são: \nO canto dos escravizados;\nEu, Mulher: Por uma nova visão de mundo; \nAs Andorinhas; \nO Sétimo Juramento; \nVentos do Apocalipse; \nBalada de Amor ao Vento; \nO Alegre Canto da Perdiz; \nE não menos importante, *Niketche*: Uma história de poligamia, que, por curiosidade, ganhei o prêmio José Craveirinha em 2003 aí no Brasil 🏆 \n*Quer saber mais sobre Niketche* ?"
+        },
+        {
+            "contains": ["personagens"],
+            "exact": [],
+            "response": "Rami: Protagonista, formação ocidental, monogâmica e criada para servir ao homem; \nTony: Marido polígamo e policial; \nEva: Mulher independente, Foi amaldiçoada, abandonada pelo Marido por ser estéril; \nJulieta, mas pode chamar de Ju: Hostilizada pela sociedade por ser concubina e desamparada. \nLu: Acredita que perdeu seu charme e que Tony sugou toda beleza que ela tinha para dar; \nSaly: Pouco amada, usada apenas para sexo; \nMauá: A mais amada no momento da história. \n \nQue tanto de personagem né! Quer dar uma revisada na *história* ? \n \nOu podemos nos *despedir*"
+        },
+        {
+            "contains": ["história"],
+            "exact": [],
+            "response": "Niketche conta a história de Tony, um alto funcionário da polícia, e sua mulher, Rami, casados há vinte anos. Certo dia, Rami descobre que o marido é polígamo: tem outras quatro mulheres e vários filhos com cada uma. As esposas de Tony estão espalhadas pelo país: em Maputo, em Inhambane, na Zambézia, em Nampula, em Cabo Delgado. Numa decisão surpreendente, Rami decide ir atrás de cada uma dessas mulheres. \n \nAdoro essa história!! Agora quer conversar sobre os *personagens* ? \n \nOu podemos nos *despedir*"
+        },
+        {
+            "contains": [],
+            "exact": ["tchau"],
+            "response": "Sem problemas! \nAh, já que estamos aqui, gostaria de te apresentar o trabalho de um grande amigo meu, o Professor *Gustavo Borges*. \nDá uma olhada nas análises dele: \nhttp://literaturaprofessorgustavoborges.blogspot.com/ \nAté logo👋",
+            "file":"gb.jpg"
+        },
+        {
+            "contains": [],
+            "exact": ["obrigado"],
+            "response": "Sem problemas! \nAh, já que estamos aqui, gostaria de te apresentar o trabalho de um grande amigo meu, o Professor *Gustavo Borges*. \nDá uma olhada nas análises dele: \nhttp://literaturaprofessorgustavoborges.blogspot.com/ \nAté logo👋",
+            "file":"gb.jpg"
+        },
+        {
+            "contains": [],
+            "exact": ["obrigada"],
+            "response": "Sem problemas! \nAh, já que estamos aqui, gostaria de te apresentar o trabalho de um grande amigo meu, o Professor *Gustavo Borges*. \nDá uma olhada nas análises dele: \nhttp://literaturaprofessorgustavoborges.blogspot.com/ \nAté logo👋",
+            "file":"gb.jpg"
+        },
+        {
+            "contains": [],
+            "exact": ["obg"],
+            "response": "Sem problemas! \nAh, já que estamos aqui, gostaria de te apresentar o trabalho de um grande amigo meu, o Professor *Gustavo Borges*. \nDá uma olhada nas análises dele: \nhttp://literaturaprofessorgustavoborges.blogspot.com/ \nAté logo👋",
+            "file":"gb.jpg"
+        },
+        {
+            "contains": [],
+            "exact": ["despedir"],
+            "response": "Sem problemas! \nAh, já que estamos aqui, gostaria de te apresentar o trabalho de um grande amigo meu, o Professor *Gustavo Borges*. \nDá uma olhada nas análises dele: \nhttp://literaturaprofessorgustavoborges.blogspot.com/ \nAté logo👋",
+            "file":"gb.jpg"
+        },
+        {
+            "contains": [],
+            "exact": ["gustavo borges"],
+            "response": "Meu herói🥰",
+            "file":"heroi.jpeg"
+        },
+        {
+            "contains": [],
+            "exact": ["quem sou eu?"],
+            "response": "Hey [#name] 👋. \nEsse é o seu número, [#phoneNumber]"
+        }
+    ],
+    "blocked": [],
+    "noMatch": "Não te entendi, poderia falar de novo?",
+    "smartreply":{
+        "suggestions":["Hello", "Welcome to my store !!", "Thanks for reaching out 🙏"],
+        "clicktosend":true
+    }
+}
